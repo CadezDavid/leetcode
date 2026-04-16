@@ -1,0 +1,11 @@
+root = true
+
+# Default for all files
+[*]
+indent_style = space
+indent_size = 4
+
+# Match C and C++ files specifically
+[*.{c,cpp,h,hpp}]
+indent_style = space
+indent_size = 2
